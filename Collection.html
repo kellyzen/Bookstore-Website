@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Collection / p a r . a . d i s e /</title>
+		<link rel="icon" href="Logo Orange.jpg"/>
+		<link rel="stylesheet" href="Collection.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {
+
+			if (this.hash !== "") {
+			  event.preventDefault();
+
+			  var hash = this.hash;
+
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+
+				window.location.hash = hash;
+			  });
+			} 
+		  });
+		});
+		</script>
+	</head>
+	
+	
+	<body>
+		<button onclick="topFunction()" id="scrolltotop" <i class="material-icons">keyboard_arrow_up</i></button>	
+		
+		<!--Header-->
+		
+		<header>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			<a href="" title="Home"><h1>p a r . a . d i s e </h1></a>
+			<nav>
+				<form class="example">
+					<input type="text" name="search" placeholder="Search..">
+				</form>
+			</nav>
+			<nav>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="Collection.html">Collection</a></li>
+					<li><a href="FAQ.html">FAQ</a></li>
+				</ul>
+			</nav>
+			<a href="Cart.html" title="Cart"><i class="fa fa-shopping-cart" style="font-size:36px;"></i></a>
+			
+			<div class="dropdown">
+				<span><a href="" title="Settings" ><i class="fa fa-gear" style="font-size:36px;"></i></a></span>
+				<div class="dropdown-content">
+					<a href="#">My Profile</a>
+					<a href="#">Privacy</a>
+					<a href="#">Language</a>
+					<a href="#">Policies</a>
+				</div>
+			</div>
+		</header>
+		
+		<main>
+			
+			<!--Menu-->
+			<nav>
+				<ul>
+					<div class="dropdown">
+						<span><li><a href="#E">English Books</a></li></span>
+						<div class="dropdown-content">
+							<a href="#">Biography</a>
+							<a href="#">Comics & Graphic Novels</a>
+							<a href="#">Health & Well-being</a>
+							<a href="#">Young Adult</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<span><li><a href="#C">Chinese Books</a></li></span>
+						<div class="dropdown-content">
+							<a href="#">文学</a>
+							<a href="#">漫画</a>
+							<a href="#">食谱。饮料</a>
+							<a href="#">哲学。心理学</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<span><li><a href="#M">Malay Books</a></li></span>
+						<div class="dropdown-content">
+							<a href="#">Seni</a>
+							<a href="#">Komik</a>
+							<a href="#">Sains</a>
+							<a href="#">Agama</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<span><li><a href="#S">Stationery</a></li></span>
+						<div class="dropdown-content">
+							<a href="#">Pencil</a>
+							<a href="#">Marker</a>
+							<a href="#">Highlighter</a>
+							<a href="#">Notebook</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<span><li><a href="#G">Gadgets & IT</a></li></span>
+						<div class="dropdown-content">
+							<a href="#">Keyboard</a>
+							<a href="#">Earphone</a>
+							<a href="#">USB</a>
+							<a href="#">Powerbank</a>
+						</div>
+					</div>
+				</ul>
+			</nav>
+			
+			<!--Best Seller-->
+			
+			<article class="bg-container">
+				<div class="row">
+					<div class="col-1">
+						<img src="Product Eng 1.jpg">
+						<div class="overlay">No.1 Best Seller</div>
+					</div>
+					<div class="col-2">
+						<a href=""><h1 class="title"><big>Ten Thousand Skies Above You</big></h1>
+						<h3 class="title">by Claudia Gray</h3><br/></a>
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<span><big>&nbsp;&nbsp;5.0</big></span>
+						</div>
+						<br/><h2 class="quote"><big>“</big>Ten thousand skies, and a million worlds, and it still wouldn’t be enough for me to share with you. Nothing less than forever will do.<big>”</big></h2>
+						<br/><br/><a href="Product.html" class="btn"><h3>See more &#8594;</h3></a>
+					</div>
+				</div>
+			</article>
+			
+			<!--New Arrivals & Deals-->
+			<article class="images">
+				<img src= "new.jpg">
+				<img src= "Deals.jpg">
+			</article>
+			
+			<!--English Books-->
+		
+			<h1><a id="E" href="" class="category"><b>English Books</b></a></h1>
+			<article class="small-container">
+					<section class="col-3">
+						<img src="Product Eng 1.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<span><big>&nbsp;&nbsp;5.0</big></span>
+						</div>
+						<h4>Ten Thousand Skies Above You</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Eng 2.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;3.0</big></span>
+						</div>
+						<h4>Katie Sprinkled Secrets</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Eng 3.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<span><big>&nbsp;&nbsp;4.5</big></span>
+						</div>
+						<h4>Harry Potter and The Goblet of Fire</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Eng 4.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;4.0</big></span>
+						</div>
+						<h4>The Glass Hotel</h4>
+						<h4>RM99.99</h4>
+					</section>
+			</article>
+			
+			<!--Chinese Books-->
+			
+			<h1><a id="C" href="" class="category"><b>Chinese Books</b></a></h1>
+			<article class="small-container">
+					<section class="col-3">
+						<img src="Product Chi 1.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;4.0</big></span>
+						</div>
+						<h4>西游记</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Chi 2.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<span><big>&nbsp;&nbsp;4.5</big></span>
+						</div>
+						<h4>魔道祖师</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Chi 3.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;3.5</big></span>
+						</div>
+						<h4>撒野</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Chi 4.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;4.0</big></span>
+						</div>
+						<h4>蜜汁炖鱿鱼</h4>
+						<h4>RM99.99</h4>
+					</section>
+			</article>
+			
+			<!--Malay Books-->
+			
+			<h1><a id="M"href="" class="category"><b>Malay Books</b></a></h1>
+			<article class="small-container">
+					<section class="col-3">
+						<img src="Product Mal 1.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;3.5</big></span>
+						</div>
+						<h4>Di Situ Langit Dijunjung</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Mal 2.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;3.0</big></span>
+						</div>
+						<h4>Cempaka Putik Untukmu</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Mal 3.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;4.0</big></span>
+						</div>
+						<h4>Tawanan Komander Caucasus</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Mal 4.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;2.0</big></span>
+						</div>
+						<h4>Leftenan Adnan Wira Bangsa</h4>
+						<h4>RM99.99</h4>
+					</section>
+			</article>
+			
+			<!--Stationery-->
+			
+			<h1><a id="S"href="" class="category"><b>Stationery</b></a></h1>
+			<article class="small-container">
+					<section class="col-3">
+						<img src="Product Sta 1.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;2.5</big></span>
+						</div>
+						<h4>Faber Castell- 1323 2B Pencil</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Sta 2.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;3.5</big></span>
+						</div>
+						<h4>Stabilo- Boss 70 Highlighter</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Sta 3.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;4.0</big></span>
+						</div>
+						<h4>Editor's Series 365 Day B6</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Sta 4.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;2.0</big></span>
+						</div>
+						<h4>Mini Metal Drink Bottle</h4>
+						<h4>RM99.99</h4>
+					</section>
+			</article>
+			
+			<!--Gadgets & IT-->
+			
+			<h1><a id="G"href="" class="category"><b>Gadgets & IT</b></a></h1>
+			<article class="small-container">
+					<section class="col-3">
+						<img src="Product Gad 1.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;1.5</big></span>
+						</div>
+						<h4>A&S Batman Bluetooth Headphone</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Gad 2.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;3.0</big></span>
+						</div>
+						<h4>Seagate Hardisk 2TB Back Up Plus</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Gad 3.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<span><big>&nbsp;&nbsp;4.5</big></span>
+						</div>
+						<h4>A&S Wonder Woman Earphone</h4>
+						<h4>RM99.99</h4>
+					</section>
+					<section class="col-3">
+						<img src="Product Gad 4.jpg">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							<span><big>&nbsp;&nbsp;3.0</big></span>
+						</div>
+						<h4>Logitech K120 Wired Keyboard</h4>
+						<h4>RM99.99</h4>
+					</section>
+			</article>
+			
+			<script>
+						//Get the button
+						var mybutton = document.getElementById("scrolltotop");
+						
+						// When the user scrolls down 20px from the top of the document, show the button
+						window.onscroll = function() {scrollFunction()};
+						
+						function scrollFunction() {
+						  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+							mybutton.style.display = "block";
+						  } else {
+							mybutton.style.display = "none";
+						  }
+						}
+						
+						// When the user clicks on the button, scroll to the top of the document
+						function topFunction() {
+						  document.body.scrollTop = 0;
+						  document.documentElement.scrollTop = 0;
+						}
+						</script>
+						
+		</main>
+		
+		<footer>
+		
+			<!--Footer-->
+			
+			<table>
+				<tr>
+					<td valign="top">
+						<ul>
+							<li><big><b>Get in Touch:</b></big></li>
+							<li><a href=""><i class="fa fa-envelope">&nbsp;:</i>contact@paradise.com</li></a>
+                            <li><a href="" ><i class="fa fa-phone">&nbsp;:</i>+60111234567</li></a>
+							<li>
+								<a href="" class="fa fa-instagram" title="Paradise on Instagram"></a>
+								<a href="" class="fa fa-facebook" title="Paradise on Facebook"></a>
+								<a href="" class="fa fa-pinterest" title="Paradise on Pinterest"></a>
+							</li>
+						</ul>
+					</td>
+					<td valign="top">
+						<ul>
+							<li><big><b>About Us:</b></big></li>
+							<br/>
+							<li><big>p a r . a . d i s e</big>&nbsp;&nbsp;&nbsp;is a webstore</li>
+							<li>based in Kuala Lumpur, Malaysia.</li>
+							<br/>
+							<li>Adopting the name <big>p a r . a . d i s e </big></li>
+							<li>from the word 'paradise', we deliver</li>
+							<li>happiness to every customers :)</li>
+						</ul>
+					</td>
+					<td valign="top">
+						<ul>
+							<li><big><b>Newsletter:</b></big></li>
+							<br/>
+							<li>Subscribe for exclusive offers and special events.</li>
+							<li>
+								<form><input type="email" placeholder="Enter your email"/></form>
+								<form><input type="submit" value="Sign Up"/></form>
+							</li>
+						</ul>
+					</td>
+					<td><img src="Logo Orange.jpg" width="150px"/></td>
+				</tr>
+				<tr>
+					<td align="center" colspan="4">
+						<hr color="#555">
+						<br/>
+						<p>&copy;2021,<a href=""><big> p a r . a . d i s e</big></a></p>
+					</td>
+				<tr>
+			</table>
+		</footer>
+
+	</body>
+
+</html>
